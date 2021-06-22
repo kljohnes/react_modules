@@ -1,0 +1,49 @@
+const Resources = () => {
+    return (
+        <div className='main'>
+            <div className="mainDiv">
+                <h1>React Resources</h1>
+                <p>Below are some of the resources that we used throughout this app. Note: You'll have one challenge where you will be asked to make this page better.</p>
+                <ul>
+                    <li>
+                        <a href="https://reactjs.org/docs/getting-started.html" target="_blank">
+                            The Official Docs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://reacttraining.com/react-router" target="_blank">
+                            React Router Dom
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://udemy.com/course/react-redux/" target="_blank">
+                            Stephen Grider's Udemy Course for the Udemy API
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pluralsight.com/course/react-js-getting-started" target="_blank">
+                            Samer Buna's Pluralsight Course for the Github API Starter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.udemy.com/course/react-the-guide-incl-redux" target="_blank">
+                            Maximilian Schwarzmuller's Udemy Course
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mthorry/earthquakes-mapper" target="_blank">
+                            Google Maps
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://neptuinian.github.io/react-photo-gallery" target="_blank">
+                            React Photo Gallery
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    );
+};
+
+export default Resources;
