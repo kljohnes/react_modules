@@ -21,12 +21,12 @@ const Resources = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.pluralsight.com/course/react-js-getting-started" target="_blank">
+                        <a href="https://www.pluralsight.com/courses/react-js-getting-started" target="_blank">
                             Samer Buna's Pluralsight Course for the Github API Starter
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.udemy.com/course/react-the-guide-incl-redux" target="_blank">
+                        <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux" target="_blank">
                             Maximilian Schwarzmuller's Udemy Course
                         </a>
                     </li>
@@ -36,7 +36,7 @@ const Resources = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://neptuinian.github.io/react-photo-gallery" target="_blank">
+                        <a href="https://neptunian.github.io/react-photo-gallery" target="_blank">
                             React Photo Gallery
                         </a>
                     </li>
