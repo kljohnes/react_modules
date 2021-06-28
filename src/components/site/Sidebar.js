@@ -10,6 +10,10 @@ import JSXRules from '../concepts/JSXRules';
 import State from '../concepts/State';
 import Effects from '../concepts/Effects';
 import PropsDemo from '../concepts/PropsDemo';
+import Hooks2 from '../concepts/Hooks';
+import TimePiecesApp from '../apps/timer-apps/TimePiecesApp'
+import NytApp from '../apps/nyt-app/NytApp'
+import MovieApp from '../apps/the-movie-db/MovieApp'
 
 const Sidebar = () => {
     return(
@@ -23,6 +27,10 @@ const Sidebar = () => {
                     <li><Link to='/state'>State</Link></li>
                     <li><Link to='/effects'>Effects</Link></li>
                     <li><Link to='propsdemo'>Props Demo</Link></li>
+                    <li><Link to='hooks2'>Hooks</Link></li>
+                    <li><Link to="/timer">Timers</Link></li>
+                    <li><Link to="/nytapp">NYT App</Link></li>
+                    <li><Link to="/movieapp">Movie App</Link></li>
                 </ul>
             </div>
             <div className='sidebar-route'>
@@ -35,6 +43,10 @@ const Sidebar = () => {
                     <Route exact path='/state'><State /></Route>
                     <Route exact path='/effects'><Effects /></Route>
                     <Route exact path='/propsdemo'><PropsDemo /></Route>
+                    <Route exact path='/Hooks2'><Hooks2 /></Route>
+                    <Route exact path='/timer'><TimePiecesApp/></Route>
+                    <Route exact path='/nytapp'><NytApp /></Route>
+                    <Route exact path='/movieapp'><MovieApp /></Route>
                 </Switch>
             </div>
         </div>
